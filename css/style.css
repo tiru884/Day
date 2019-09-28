@@ -1125,3 +1125,32 @@ ul.social-network li a {
 	font-size:12px;
 	text-shadow:none;
 } 
+.navbar-default {
+  background-color: #fff;
+  border-color:#fff;
+}
+.nav-tabs > li > a {
+  border-radius: 0;
+  color:teal !important;
+  padding: 30px;
+  font-size: larger;
+}
+.carousel-caption h2 span {
+  font-size: 60px;
+  color:teal !important;
+}
+.dropdown-menu >li>a{
+  color:teal !important;
+}
+.aboutUsImg{
+  width:83%;
+}
+
+footer{
+  padding: 50px;
+    background: white !important;
+}
+footer p {
+  color:black !important;
+  font-weight: bolder;
+}
