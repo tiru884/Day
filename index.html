@@ -42,14 +42,23 @@
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation"><a href="index.html" class="active">Home</a></li>
-              <li role="presentation"  class="dropdown"><a href="Products.html" class="dropdown-toggle" data-toggle="dropdown">Products</a>
+              <li role="presentation" class="dropdown"><a href="Products.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Products</a>
                 <ul class="dropdown-menu" class="dropdown-menu">
                   <li><a tabindex="-1" href="Products.html">Raw Materials</a></li>
-                  <li><a tabindex="-1" href="Products.html">Cell Manufacturing</a></li>
+                  <li><a tabindex="-1" href="CellManufacturing.html">Cell Manufacturing</a></li>
               </li>
             </ul>
             </li>
-            <li role="presentation"><a href="Applications.html">Applications</a></li>
+            <li role="presentation" class="dropdown"><a href="Applications.html" class="dropdown-toggle"
+                data-toggle="dropdown">Applications</a>
+              <ul class="dropdown-menu" class="dropdown-menu">
+                <li><a tabindex="-1" href="Applications.html">Electric Vehicle Systems
+                  </a></li>
+                  <li><a tabindex="-1" href="#">Energy Storage Systems</a>
+              </ul>
+            </li>
+            </li>
             <li role="presentation"><a href="contact.html">Contact</a></li>
             </ul>
           </div>
@@ -76,7 +85,7 @@
             <img src="img/slider/slide.png" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                <h2 ><span>SENSE of SUSTAINABILITY</span></h2>
+                <h2><span>SENSE of SUSTAINABILITY</span></h2>
               </div>
               <!-- <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
@@ -96,7 +105,7 @@
             </div>
           </div>
 
-         
+
           <div class="item">
             <img src="img/slider/truck1.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
@@ -123,12 +132,12 @@
             </div>
           </div>
           <div class="item">
-              <img src="img/slider/car1.jpg" class="img-responsive" alt="">
-              <div class="carousel-caption">
-                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                  <h2>Electric Car</h2>
-                </div>
-                <!-- <div class="col-md-10 col-md-offset-1">
+            <img src="img/slider/car1.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2>Electric Car</h2>
+              </div>
+              <!-- <div class="col-md-10 col-md-offset-1">
                   <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
                   </div>
@@ -145,16 +154,16 @@
                     </div>
                   </form>
                 </div> -->
-              </div>
             </div>
+          </div>
 
-            <div class="item">
-                <img src="img/slider/bike1.jpg" class="img-responsive" alt="">
-                <div class="carousel-caption">
-                  <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                    <h2>Electric Bike</h2>
-                  </div>
-                  <!-- <div class="col-md-10 col-md-offset-1">
+          <div class="item">
+            <img src="img/slider/bike1.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2>Electric Bike</h2>
+              </div>
+              <!-- <div class="col-md-10 col-md-offset-1">
                     <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
                     </div>
@@ -171,15 +180,15 @@
                       </div>
                     </form>
                   </div> -->
-                </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="img/slider/Auto-rickshaw.jpg" class="img-responsive" alt="">
+            <div class="carousel-caption">
+              <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                <h2>Electric Auto-rickshaw</h2>
               </div>
-              <div class="item">
-                  <img src="img/slider/Auto-rickshaw.jpg" class="img-responsive" alt="">
-                  <div class="carousel-caption">
-                    <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                      <h2>Electric Auto-rickshaw</h2>
-                    </div>
-                    <!-- <div class="col-md-10 col-md-offset-1">
+              <!-- <div class="col-md-10 col-md-offset-1">
                       <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
                       </div>
@@ -196,8 +205,8 @@
                         </div>
                       </form>
                     </div> -->
-                  </div>
-                </div>
+            </div>
+          </div>
         </div>
 
         <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
@@ -213,7 +222,7 @@
     <!--/#about-slider-->
   </div>
   <!--/#slider-->
-<!-- 
+  <!-- 
   <div class="about">
     <div class="container">
       <div class="text-center">
@@ -350,43 +359,47 @@
   </div> -->
 
   <footer>
-      <div class="container">
-          <div class="row">
-            <div class="col-sm">
-                <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <h4>About Us</h4>
-                    <img src="img/About/Picture1.png" class="aboutUsImg"/>
-                    <p>ChargeXO is developing the R&D and manufacturing capabilities of full industry chains in vehicle and energy storage batteries field. This includes materials, battery cells, battery management systems, battery recycling and reuse.
-                      </p>
-                    <!-- <div class="contact-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h4>About Us</h4>
+            <img src="img/About/Picture1.png" class="aboutUsImg" />
+            <p>ChargeXO is developing the R&D and manufacturing capabilities of full industry chains in vehicle and
+              energy storage batteries field. This includes materials, battery cells, battery management systems,
+              battery recycling and reuse.
+            </p>
+            <!-- <div class="contact-info">
                       <ul>
                         <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
                         <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
                         <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
                       </ul>
                     </div> -->
-                  </div>
-            </div>
-            <div class="col-sm">
-                <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <br/>
-                    <img src="img/About/Picture2.jpg" class="aboutUsImg"/>
-                    <p>ChargeXO focuses on R&D, production, and sales of Electric Vehicle battery systems and Energy Storage battery systems. 
-                      </p>
-                      <p>These battery systems consists of ancillary products such as electric motor, harness, connectors, charging stations and flexible solar panels.
-                        </p>
-                    <!-- <div class="contact-info">
-                      <ul>
-                        <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
-                        <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
-                        <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
-                      </ul>
-                    </div> -->
-                  </div>
-            </div>
-            
           </div>
         </div>
+        <div class="col-sm">
+          <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <br />
+            <img src="img/About/Picture2.jpg" class="aboutUsImg" />
+            <p>ChargeXO focuses on R&D, production, and sales of Electric Vehicle battery systems and Energy Storage
+              battery systems.
+            </p>
+            <p>These battery systems consists of ancillary products such as electric motor, harness, connectors,
+              charging stations and flexible solar panels.
+            </p>
+            <!-- <div class="contact-info">
+                      <ul>
+                        <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
+                        <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
+                        <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
+                      </ul>
+                    </div> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
     <!-- <div class="container">
      
 
@@ -404,7 +417,7 @@
         </div>
       </div> -->
 
-      <!-- <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+    <!-- <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
         <div class="">
           <h4>Newsletter Registration</h4>
           <p>Subscribe today to receive the latest Day news via email. You may unsubscribe from this service at any time
@@ -438,7 +451,7 @@
 
       <div class="col-md-4 col-md-offset-4">
         <div class="copyright">
-          &copy; Day Theme. All Rights Reserved.
+          &copy; ChargeXO. All Rights Reserved.
 
         </div>
       </div>

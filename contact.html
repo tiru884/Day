@@ -35,26 +35,34 @@
             <span class="icon-bar"></span>
           </button>
           <div class="navbar-brand">
-            <a href="index.html">
-              <a href="index.html"><img src="img/logo/logo.png"></img></a>
-            </a>
+            <a href="index.html"><img src="img/logo/logo.png"></img></a>
           </div>
         </div>
         <div class="navbar-collapse collapse">
-            <div class="menu">
-              <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation"><a href="index.html" class="active">Home</a></li>
-                <li role="presentation"  class="dropdown"><a href="Products.html" class="dropdown-toggle" data-toggle="dropdown">Products</a>
-                  <ul class="dropdown-menu" class="dropdown-menu">
-                    <li><a tabindex="-1" href="#">Raw Materials</a></li>
-                    <li><a tabindex="-1" href="#">Cell Manufacturing</a></li>
-                  </ul>
-                </li>
-                <li role="presentation"><a href="Applications.html">Applications</a></li>
-                <li role="presentation"><a href="contact.html">Contact</a></li>
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation"><a href="index.html" class="active">Home</a></li>
+              <li role="presentation" class="dropdown"><a href="Products.html" class="dropdown-toggle"
+                  data-toggle="dropdown">Products</a>
+                <ul class="dropdown-menu" class="dropdown-menu">
+                  <li><a tabindex="-1" href="Products.html">Raw Materials</a></li>
+                  <li><a tabindex="-1" href="CellManufacturing.html">Cell Manufacturing</a></li>
+              </li>
+            </ul>
+            </li>
+            <li role="presentation" class="dropdown"><a href="Applications.html" class="dropdown-toggle"
+                data-toggle="dropdown">Applications</a>
+              <ul class="dropdown-menu" class="dropdown-menu">
+                <li><a tabindex="-1" href="Applications.html">Electric Vehicle Systems
+                  </a></li>
+                <li><a tabindex="-1" href="#">Energy Storage Systems </a>
               </ul>
-            </div>
+            </li>
+            </li>
+            <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
           </div>
+        </div>
       </div>
       <!--/.container-->
     </nav>
@@ -63,93 +71,205 @@
   <!--/header-->
 
   <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7608.950763523636!2d78.38829337386758!3d17.53253935196688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8e0e866db2f9%3A0x736da447f39e9ccc!2sKakatiya%20Hills%2C%20Vasanth%20Nagar%20Colony%2C%20Nizampet%2C%20Hyderabad%2C%20Telangana%20500090!5e0!3m2!1sen!2sin!4v1569669860601!5m2!1sen!2sin"
+      width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+          Contact Us
+          <h2><p class="clsRaw">Singapore</p>
+            <p>
+                1 North Bridge Road,
+                #21-06 High Street Centre,
+                Singapore 179094
+                </p>
+                <h2><p class="clsRaw">India</p><p>
+                    #402,65 Saroji Nagar,
+                    Kakathiya Hills, Hyderabad,
+                    Telangana 50081
+                    
+                </p>
+                <h2><p class="clsRaw">Service Network
+                  </p><p>
+                      Service Network<br> <a href="mailto:info@chargexo.com" target="_top">info@chargexo.com</a></p>
+                     
+                    
+      </div>
+      <div class="col-lg-9">
+        <section class="contact-page">
+          <div class="container">
+            <div class="text-center">
+              <h2>Quick Enquiry Form
+              </h2>
+
+            </div>
+            <div class="row contact-wrap">
+              <div class="col-md-6 col-md-offset-3">
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Name"
+                            data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                            data-rule="email" data-msg="Please enter a valid email" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="Company" id="Company" placeholder="Company"
+                            data-rule="minlen:4" data-msg="Please enter at least 8 chars of Company" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="Contact" id="Contact" placeholder="Contact"
+                            data-rule="minlen:4" data-msg="Please enter at least 8 chars of Company" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="Designation" id="Designation"
+                            placeholder="Designation" data-rule="minlen:4"
+                            data-msg="Please enter at least 8 chars of Designation" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="reason" id="reason" placeholder="Reason for Contact
+                                " data-rule="minlen:4" data-msg="Please enter at least 8 chars of Reason for Contact
+                                  " />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required"
+                              data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                          </div>
+                          <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg"
+                              required="required">Submit
+                              Message</button></div>
+                              </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                 
+                </form>
+              </div>
+            </div>
+            <!--/.row-->
+          </div>
+          <!--/.container-->
+        </section>
+      </div>
+
+    </div>
   </div>
 
-  <section class="contact-page">
-    <div class="container">
-      <div class="text-center">
-        <h2>Drop Your Message</h2>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="row contact-wrap">
-        <div class="col-md-6 col-md-offset-3">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
-                data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
-                data-msg="Please enter a valid email" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
-                data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
-                placeholder="Message"></textarea>
-              <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit
-                Message</button></div>
-          </form>
-        </div>
-      </div>
-      <!--/.row-->
-    </div>
-    <!--/.container-->
-  </section>
   <!--/#contact-page-->
-
 
   <footer>
     <div class="container">
-      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <h4>About Us</h4>
-        <p>Day is tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters.</p>
-        <div class="contact-info">
-          <ul>
-            <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
-            <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
-            <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
-          </ul>
+      <div class="row">
+        <div class="col-sm">
+          <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h4>About Us</h4>
+            <img src="img/About/Picture1.png" class="aboutUsImg" />
+            <p>ChargeXO is developing the R&D and manufacturing capabilities of full industry chains in vehicle and
+              energy storage batteries field. This includes materials, battery cells, battery management systems,
+              battery recycling and reuse.
+            </p>
+            <!-- <div class="contact-info">
+                        <ul>
+                          <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
+                          <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
+                          <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
+                        </ul>
+                      </div> -->
+          </div>
         </div>
-      </div>
+        <div class="col-sm">
+          <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <br />
+            <img src="img/About/Picture2.jpg" class="aboutUsImg" />
+            <p>ChargeXO focuses on R&D, production, and sales of Electric Vehicle battery systems and Energy Storage
+              battery systems.
+            </p>
+            <p>These battery systems consists of ancillary products such as electric motor, harness, connectors,
+              charging stations and flexible solar panels.
+            </p>
+            <!-- <div class="contact-info">
+                        <ul>
+                          <li><i class="fa fa-home fa"></i>Suite 54 Elizebth Street, Victoria State Newyork, USA </li>
+                          <li><i class="fa fa-phone fa"></i> +38 000 129900</li>
+                          <li><i class="fa fa-envelope fa"></i> info@domain.net</li>
+                        </ul>
+                      </div> -->
+          </div>
+        </div>
 
-      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-        <div class="text-center">
-          <h4>Photo Gallery</h4>
-          <ul class="sidebar-gallery">
-            <li><a href="#"><img src="img/gallery1.png" alt="" /></a></li>
-            <li><a href="#"><img src="img/gallery2.png" alt="" /></a></li>
-            <li><a href="#"><img src="img/gallery3.png" alt="" /></a></li>
-            <li><a href="#"><img src="img/gallery4.png" alt="" /></a></li>
-            <li><a href="#"><img src="img/gallery5.png" alt="" /></a></li>
-            <li><a href="#"><img src="img/gallery6.png" alt="" /></a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-        <h4>Newsletter Registration</h4>
-        <p>Subscribe today to receive the latest Day news via email. You may unsubscribe from this service at any time</p>
-        <div class="btn-gamp">
-          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
-        </div>
-        <div class="btn-gamp">
-          <a type="submit" class="btn btn-default">Subscribe</a>
-        </div>
       </div>
     </div>
-  </footer>
+    <!-- <div class="container">
+       
+  
+        <!-- <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="text-center">
+            <h4>Photo Gallery</h4>
+            <ul class="sidebar-gallery">
+              <li><a href="#"><img src="img/gallery1.png" alt="" /></a></li>
+              <li><a href="#"><img src="img/gallery2.png" alt="" /></a></li>
+              <li><a href="#"><img src="img/gallery3.png" alt="" /></a></li>
+              <li><a href="#"><img src="img/gallery4.png" alt="" /></a></li>
+              <li><a href="#"><img src="img/gallery5.png" alt="" /></a></li>
+              <li><a href="#"><img src="img/gallery6.png" alt="" /></a></li>
+            </ul>
+          </div>
+        </div> -->
 
+    <!-- <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+          <div class="">
+            <h4>Newsletter Registration</h4>
+            <p>Subscribe today to receive the latest Day news via email. You may unsubscribe from this service at any time
+            </p>
+            <div class="btn-gamp">
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
+            </div>
+            <div class="btn-gamp">
+              <a type="submit" class="btn btn-default">Subscribe</a>
+            </div>
+  
+          </div>
+        </div> -->
+
+    </div> -->
+  </footer>
   <div class="sub-footer">
     <div class="container">
       <div class="social-icon">
@@ -166,8 +286,8 @@
 
       <div class="col-md-4 col-md-offset-4">
         <div class="copyright">
-          &copy; Day Theme. All Rights Reserved.
-          
+          &copy; ChargeXO. All Rights Reserved.
+
         </div>
       </div>
     </div>
