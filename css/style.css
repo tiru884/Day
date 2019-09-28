@@ -1148,9 +1148,48 @@ ul.social-network li a {
 
 footer{
   padding: 50px;
-    background: white !important;
+    background: whitesmoke !important;
 }
 footer p {
   color:black !important;
   font-weight: bolder;
+}
+ol{
+  color: black;
+  font-weight: bold;
+}
+ol>li>span{
+  color: black;
+    font-weight: bold;
+}
+ol>li>ul{
+  color:black;
+}
+
+ol>li>ul>li{
+  color:black;
+}
+
+
+ol>li>ul>li>p{
+  color:teal;
+}
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: none !important;
+}
+.about {
+   padding:0px !important;
+  background: #fff;
+}
+
+header{
+  border-bottom: 1px solid teal;
+}
+
+.rawMaterialContent{
+  color:teal;
+  font-weight: bold;
 }
